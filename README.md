@@ -33,7 +33,7 @@ The goal of this repository is to construct, analyze, and publish a dataset of m
 
 ## License
 
-This code is available under the MIT License
+This code is available under the [MIT License](LICENSE)
 
 ## Miscellaneous
 
