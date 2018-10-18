@@ -44,3 +44,7 @@ This code is available under the [MIT License](LICENSE)
 ## Miscellaneous
 
 1. The Page Views API provides a mechanism to filter by user agent. As a result, the final dataset has the minor anomaly that the Page Count values include bots (spiders/crawlers/etc), whereas the Page Views API does not.
+
+## Visualization
+
+![Wikimedia Visits from 2007 to 2018](wikimedia_views_2007-2018.png)
