@@ -39,7 +39,7 @@ I have used two APIs for collecting data:
 
 ## License
 
-This code is available under the MIT License
+This code is available under the [MIT License](LICENSE)
 
 ## Miscellaneous
 
