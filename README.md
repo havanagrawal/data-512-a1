@@ -48,3 +48,5 @@ I have used two APIs for collecting data:
 ## License
 
 This code is available under the [MIT License](LICENSE)
+
+Wikimedia [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en)
