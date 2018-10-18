@@ -2,6 +2,12 @@
 
 The goal of this repository is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through September 30 2018.
 
+## API Documentation
+
+I have used two APIs for collecting data:
+1. The (Legacy) Page Count API, at monthly granularity: [Documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts#Pagecounts)  
+2. The Page View API, at monthly granularity:  [Documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews#Monthly_counts)
+
 ## Directory Structure
 
 ```
