@@ -18,6 +18,23 @@ The goal of this repository is to construct, analyze, and publish a dataset of m
 └── hcds-a1-data-curation.ipynb  
 ```
 
+## CSV Data Description
+
+| Column | Description |
+|--------|-------------|
+| `year`   | The year of the data point |
+| `month`  | The month of the data point. The year-month pair serve as a key |
+| `pageview_mobile_views` | The number of views as recorded by mobile (app + web) visits |
+| `pageview_desktop_views` | The number of views as recorded by desktop site (web) visits |
+| `pagecount_mobile_views` | The number of views as recorded by mobile visits by the legacy API |
+| `pagecount_desktop_views` | The number of views as recorded by desktop site visits |
+| `pageview_all_views` | The total number of views as recorded by the PageView API |
+| `pagecount_all_views` | The total number of views as recorded by the Page Count API |
+
 ## License
 
 This code is available under the MIT License
+
+## Miscellaneous
+
+1. The Page Views API provides a mechanism to filter by user agent. As a result, the final dataset has the minor anomaly that the Page Count values include bots (spiders/crawlers/etc), whereas the Page Views API does not.
